@@ -1,0 +1,36 @@
+/* .theme {
+    background-color: white !important;
+    color: black;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee !important;
+} */
+body {
+    font-family: serif;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: black !important;
+    color: white !important */
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: black !important;
+    color: white !important */
+    /* Ensures the container takes at least the full height of the viewport */
+    /* position: relative; */
+    /* Needed for absolute positioning of footer */
+}
+
+.content {
+    flex: 1;
+}
