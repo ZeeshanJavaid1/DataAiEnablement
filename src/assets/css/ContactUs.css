@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   background-color: #FFFFFF;
-  border: 1px solid #ffb268;
+  border: 1px solid #38bdf8;
   padding: 2rem;
   margin: 10px;
   max-width: 1200px;
@@ -64,7 +64,7 @@
   align-items: center;
 }
 .label-input-icon{
-  color:#aac52a;
+  color:#38bdf8;
 }
 .descriptionText{
   color: #FFFFFF;
@@ -93,7 +93,7 @@
   top: 50%;
   left: 10px;
   z-index: 1;
-  color: #aac52a;
+  color: #38bdf8;
   transform: translateY(-50%);
   pointer-events: none;
 }
@@ -103,12 +103,12 @@
   padding: 8px 30px;
   border: none;
   color: #050505;
-  background-color: #abb384;
+  background-color: #38bdf8;
   /* border-radius: 4px; */
   font-weight: bold;
 }
 .sendButton:hover{
-  background-color: #d9e69e;
+  background-color: #38bdf8;
   color: #050505;
 }
 
