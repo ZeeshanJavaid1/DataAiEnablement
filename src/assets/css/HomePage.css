@@ -67,11 +67,13 @@
 .homePage-section {
   padding: 6rem 2rem;
 }
-.light-section {
+.home-light-section {
   background: #f8fafc;
+  color: #000000;
 }
-.dark-section {
-  background: #1f2937;
+ .home-dark-section {
+  /* background: #1f2937; */
+  background: linear-gradient(135deg, #0f172a, #1f2937, #475569, #f1f5f9);
   color: white;
 }
 
@@ -147,6 +149,39 @@
   color: #94a3b8;
 }
 
+/* dark section  */
+.home-dark-section {
+  background: linear-gradient(135deg, #0f172a, #1f2937, #475569, #f1f5f9);
+  color: #e2e8f0;
+  /* default text */
+  padding: 4rem 2rem;
+}
+
+.home-dark-section h2 {
+  color: #f9fafb;
+  font-weight: 700;
+}
+
+.home-dark-section p {
+  color: #e2e8f0;
+  line-height: 1.7;
+}
+
+.home-dark-section .homePage-stats h3 {
+  color: #38bdf8;
+  /* accent cyan */
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.home-dark-section .homePage-stats p {
+  color: #cbd5e1;
+  margin-top: 0.25rem;
+}
+.home-dark-section h2,
+.home-dark-section p {
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
 /* === COURSES === */
 .homePage-courses {
   background: #f1f5f9;

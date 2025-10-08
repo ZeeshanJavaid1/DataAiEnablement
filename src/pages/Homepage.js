@@ -36,7 +36,7 @@ const Homepage = () => {
       </section>
 
       {/* EXPERT TRAINING SECTION */}
-      <section className="homePage-section light-section">
+      <section className="homePage-section home-light-section">
         <div className="homePage-container homePage-zigzag">
           <div className="homePage-image">
             <img
@@ -62,7 +62,7 @@ const Homepage = () => {
       </section>
 
       {/* CUSTOM TRAINING SECTION */}
-      <section className="homePage-section dark-section">
+      <section className="homePage-section home-dark-section">
         <div className="homePage-container homePage-zigzag reverse">
            <div className="homePage-image">
             <img
