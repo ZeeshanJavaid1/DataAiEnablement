@@ -26,11 +26,11 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Courses</h3>
             <ul>
-              <li><a href="#">Data Science Bootcamp</a></li>
-              <li><a href="#">AI & Machine Learning</a></li>
-              <li><a href="#">Data Engineering</a></li>
-              <li><a href="#">Business Intelligence</a></li>
-              <li><a href="#">Short Courses</a></li>
+              <li><a href="/Course">Data Science Bootcamp</a></li>
+              <li><a href="/Course">AI & Machine Learning</a></li>
+              <li><a href="/Course">Data Engineering</a></li>
+              <li><a href="/Course">Business Intelligence</a></li>
+              <li><a href="/Course">Short Courses</a></li>
             </ul>
           </div>
 
@@ -38,11 +38,11 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Resources</h3>
             <ul>
-              <li><a href="#">Blog</a></li>
+              {/* <li><a href="#">Blog</a></li>
               <li><a href="#">Events</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Careers</a></li> */}
+              <li><a href="/contact-us">ContactUs</a></li>
+              {/* <li><a href="#">FAQ</a></li> */}
             </ul>
           </div>
 

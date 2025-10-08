@@ -306,7 +306,7 @@ const MinimalLoginPage = () => {
         <div className="minimal-welcome-content">
           <h2 className="minimal-welcome-title">WELCOME BACK!</h2>
           <p className="minimal-welcome-text">
-            You're just one step away from a high-quality scanning experience.
+            You're just one step away to start your journey.
           </p>
           <div className="minimal-illustration">
             <div className="minimal-doc-icon">

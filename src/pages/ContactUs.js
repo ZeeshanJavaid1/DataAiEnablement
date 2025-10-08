@@ -42,11 +42,10 @@ const ContactUs = () => {
             <img src={contactUs} className="img-fluid contactUsImage" alt="Contact Us" />
             <div>
               <div>
-                <FaUserAltSlash size={20} />
-                <label className="descriptionText">Address</label>
-                <span className="descriptionText">30 A, Johar Town Lahore</span>
+                <h2 className="descriptionText">Let's start the conversation</h2>
+                <p className="descriptionText">Have question? or Feedback We are always here.</p>
               </div>
-              <div>
+              {/* <div>
                 <FaPhone size={20} />
                 <label className="descriptionText">Let's Talk</label>
                 <span className="descriptionText">0310-1234567</span>
@@ -55,7 +54,7 @@ const ContactUs = () => {
                 <FaMailBulk size={20} />
                 <label className="descriptionText">General Support</label>
                 <span className="descriptionText">contact@xyz.com</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
