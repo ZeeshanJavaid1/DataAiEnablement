@@ -10,7 +10,7 @@ import {
   FaArrowRight,
   FaPlay
 } from 'react-icons/fa';
-import HeroImage from "../../assets/images/tableau2.jpg";
+import HeroImage from "../../assets/images/heroimage.png";
 import { useNavigate } from "react-router-dom";
 
 const Banner = () => {

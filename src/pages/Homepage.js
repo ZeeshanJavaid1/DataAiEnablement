@@ -1,6 +1,7 @@
 import { FaChartLine, FaRobot, FaDatabase, FaArrowRight, FaPlay } from 'react-icons/fa';
 import "../assets/css/HomePage.css";
 import HeroImage from "../assets/images/tableau3.jpg";
+import HeroImage1 from "../assets/images/heroImg.png";
 import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
@@ -14,7 +15,7 @@ const Homepage = () => {
       {/* HERO SECTION */}
       <section
         className="homePage-hero"
-        style={{ backgroundImage: `url(${HeroImage})` }}
+        style={{ backgroundImage: `url(${HeroImage1})` }}
       >
         <div className="homePage-hero-overlay"></div>
         <div className="homePage-hero-content">
