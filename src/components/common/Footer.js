@@ -38,8 +38,8 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Resources</h3>
             <ul>
-              {/* <li><a href="#">Blog</a></li>
-              <li><a href="#">Events</a></li>
+              <li><a href="/AboutPage">About Us</a></li>
+              {/*<li><a href="#">Events</a></li>
               <li><a href="#">Careers</a></li> */}
               <li><a href="/contact-us">ContactUs</a></li>
               {/* <li><a href="#">FAQ</a></li> */}
